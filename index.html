@@ -50,8 +50,10 @@
     /* Ajuste fondo panal */
     .bg-primary {
 
-      background-image: url("assets/img/panal2.png");   /* Replace with your image path */
-      background-repeat: repeat;    /* Or repeat-x, repeat-y, no-repeat */
+      background-image: url("assets/img/panal2.png");
+      /* Replace with your image path */
+      background-repeat: repeat;
+      /* Or repeat-x, repeat-y, no-repeat */
     }
 
     #mainNav .navbar-nav li.nav-item a.nav-link {
@@ -111,28 +113,72 @@
     </div>
   </header>
 
-  <!-- Beneficios -->
-  <section class="page-section" id="beneficios">
+  <!-- Portfolio Section-->
+  <section class="page-section portfolio" id="portfolio">
     <div class="container">
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Beneficios</h2>
-      <div class="divider-custom">
+      <!-- Portfolio Section Heading-->
+      <!--<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>-->
+      <!-- Icon Divider-->
+      <!--<div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>-->
+      <!-- Portfolio Grid Items-->
+      <div class="row justify-content-center">
+        <!-- Portfolio Item 1-->
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+            </div>
+            <img class="img-fluid" src="assets/img/portfolio/foto_ML.jpg" alt="..." />
+          </div>
+        </div>
+        <!-- Portfolio Item 2-->
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+            </div>
+            <img class="img-fluid" src="assets/img/portfolio/foto_ML.jpg" alt="..." />
+          </div>
+        </div>
+        <!-- Portfolio Item 3-->
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+            </div>
+            <img class="img-fluid" src="assets/img/portfolio/foto_ML.jpg" alt="..." />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Beneficios -->
+  <section class="page-section bg-primary text-white mb-0" id="beneficios">
+    <div class="container">
+      <h2 class="page-section-heading text-center text-uppercase text-white">Beneficios</h2>
+      <div class="divider-custom divider-light">
         <div class="divider-custom-line"></div>
         <div class="divider-custom-icon"><i class="fa-regular fa-heart"></i></div>
         <div class="divider-custom-line"></div>
       </div>
       <div class="row text-center">
         <div class="col-md-4">
-          <i class="fas fa-leaf fa-3x text-primary mb-3"></i>
+          <i class="fas fa-leaf fa-3x mb-3"></i>
           <p><strong>Cuida tu piel con ingredientes naturales</strong><br>
             Fórmula suave, libre de químicos agresivos, ideal incluso para pieles sensibles.</p>
         </div>
         <div class="col-md-4">
-          <i class="fas fa-bolt fa-3x text-primary mb-3"></i>
+          <i class="fas fa-bolt fa-3x mb-3"></i>
           <p><strong>Depilación efectiva desde la raíz</strong><br>
             Elimina el vello de manera profunda, dejando tu piel lisa y sin sombra.</p>
         </div>
         <div class="col-md-4">
-          <i class="fas fa-gem fa-3x text-primary mb-3"></i>
+          <i class="fas fa-gem fa-3x mb-3"></i>
           <p><strong>Fácil y práctica de usar</strong><br>
             Se adapta tanto a profesionales como a uso en casa, con resultados rápidos y seguros.</p>
         </div>
@@ -141,22 +187,22 @@
   </section>
 
   <!-- Cómo Usar -->
-  <section class="page-section bg-primary text-white mb-0" id="uso">
+  <section class="page-section" id="uso">
     <div class="container">
-      <h2 class="page-section-heading text-center text-uppercase text-white">Cómo Usar PROWAX</h2>
-      <div class="divider-custom divider-light">
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Cómo Usar PROWAX</h2>
+      <div class="divider-custom">
         <div class="divider-custom-line"></div>
         <div class="divider-custom-icon"><i class="fa-regular fa-pen-to-square"></i></div>
         <div class="divider-custom-line"></div>
       </div>
       <div class="row text-center">
-        <div class="col-md-4"><i class="fa-solid fa-temperature-high fa-3x mb-3"></i>
+        <div class="col-md-4"><i class="fa-solid fa-temperature-high fa-3x text-primary mb-3"></i>
           <p>Calienta la cera hasta lograr la textura adecuada</p>
         </div>
-        <div class="col-md-4"><i class="fas fa-brush fa-3x mb-3"></i>
+        <div class="col-md-4"><i class="fas fa-brush fa-3x text-primary mb-3"></i>
           <p>Aplica en la zona deseada en dirección al crecimiento del vello</p>
         </div>
-        <div class="col-md-4"><i class="fas fa-hand-paper fa-3x mb-3"></i>
+        <div class="col-md-4"><i class="fas fa-hand-paper text-primary fa-3x mb-3"></i>
           <p>Retira con un movimiento firme y disfruta tu piel suave</p>
         </div>
       </div>
@@ -164,10 +210,10 @@
   </section>
 
   <!-- Testimonios -->
-  <section class="page-section" id="testimonios">
+  <section class="page-section bg-primary text-white mb-0" id="testimonios">
     <div class="container">
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Testimonios</h2>
-      <div class="divider-custom">
+      <h2 class="page-section-heading text-center text-uppercase text-white">Testimonios</h2>
+      <div class="divider-custom divider-light">
         <div class="divider-custom-line"></div>
         <div class="divider-custom-icon"><i class="fa-regular fa-comments"></i></div>
         <div class="divider-custom-line"></div>
@@ -213,9 +259,6 @@
         <div class="col-lg-4">
           <h4 class="text-uppercase mb-4">Contacto</h4>
           <p class="lead mb-0">
-            ventas@prowax.cl
-          </p>
-          <p class="lead mb-0">
             +56973949662
           </p>
         </div>
@@ -227,6 +270,118 @@
   <div class="copyright py-4 text-center text-white">
     <div class="container"><small>Copyright &copy; Prowax 2025</small></div>
   </div>
+
+  <!-- Portfolio Modal 1-->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+            aria-label="Close"></button></div>
+        <div class="modal-body text-center pb-5">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title-->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Piel más suave</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image-->
+                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/foto_ML.jpg" alt="Cera depilatoria" />
+                <!-- Portfolio Modal - Text-->
+                <p class="mb-4">La cera depilatoria elimina el vello desde la raíz, dejando la piel mucho más suave y
+                  con
+                  un acabado limpio que dura semanas, evitando la sensación de aspereza.</p>
+                <button class="btn btn-primary" data-bs-dismiss="modal">
+                  <i class="fas fa-xmark fa-fw"></i>
+                  Cerrar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 2-->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+            aria-label="Close"></button></div>
+        <div class="modal-body text-center pb-5">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title-->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Resultados duraderos</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image-->
+                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/foto_ML.jpg" alt="Depilación con cera" />
+                <!-- Portfolio Modal - Text-->
+                <p class="mb-4">A diferencia de otros métodos, la depilación con cera retrasa el crecimiento del vello,
+                  permitiendo disfrutar de una piel libre de vellos hasta por 4 semanas.</p>
+                <button class="btn btn-primary" data-bs-dismiss="modal">
+                  <i class="fas fa-xmark fa-fw"></i>
+                  Cerrar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 3-->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+            aria-label="Close"></button></div>
+        <div class="modal-body text-center pb-5">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title-->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Menos irritación</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image-->
+                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/foto_ML.jpg"
+                  alt="Beneficios de la cera" />
+                <!-- Portfolio Modal - Text-->
+                <p class="mb-4">La cera depilatoria es ideal para quienes buscan un método efectivo y delicado con la
+                  piel,
+                  reduciendo la irritación en comparación con la rasuradora o cremas químicas.</p>
+                <button class="btn btn-primary" data-bs-dismiss="modal">
+                  <i class="fas fa-xmark fa-fw"></i>
+                  Cerrar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- Botón flotante WhatsApp -->
   <a href="https://wa.me/56973949662?text=Hola%2C%20estoy%20interesado%20en%20comprar%20cera%20Prowax.%20%C2%BFPodr%C3%ADan%20darme%20m%C3%A1s%20informaci%C3%B3n%3F"
